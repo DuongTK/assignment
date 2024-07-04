@@ -1,0 +1,15 @@
+package com.example.assignment.model.filter;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+@EqualsAndHashCode(callSuper=false)
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class OrderFilter extends BaseFilter{
+    private Long id;
+    private String keywork;
+}
